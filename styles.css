@@ -1,0 +1,319 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Work+Sans:wght@400;500;600;800&display=swap');
+
+body{
+   
+    
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+
+}
+/* Nav section */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+.gamer-h{
+    font-size: 45px;
+    font-family: Work Sans;
+
+}
+
+.gamer-icon{
+    display: flex;
+    margin-top: 2.25rem;
+    gap: 1.25rem;
+
+}
+nav ul{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    font-family: Work Sans;
+    font-size: 1.15rem;
+    font-weight: 500;
+    
+}
+ul li{
+    list-style: none;
+    
+    
+   
+}
+ul a{
+    text-decoration: none;
+    color: #3C354F;
+    
+}
+
+.btn-nav
+{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 20px;
+    border: none;
+}
+/* 2nd part */
+
+
+main{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+.second-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 148px;
+    height: 700px;
+   
+    
+    
+}
+
+
+.second-h1{
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    
+}
+.second-h2{
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 95px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+p{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.second-b1{
+    border-radius: 48px;
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+    padding: 21px 40px;
+    border: none;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    
+
+}
+.second-b2{
+    border-radius: 48px;
+    background: #4EC5F7;
+    padding: 21px 40px;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    border: none;
+    margin-left: 0.65rem;
+
+}
+.second-img{
+    padding-left: 68px;
+}
+
+
+/* .................................................................. */
+/* third part */
+
+
+
+
+.third-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 95px;
+   
+    
+    
+}
+.third-content{
+    padding-top: 95px;
+    padding-left: 52px;
+    text-align: right;
+}
+.third-h{
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.third-p{
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    width: 520px;
+}
+/* 4th section */
+
+.fourth-container{
+    margin-top: 120px;
+}
+.fourth-h{
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+   
+}
+.funny{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+.fourth-p{
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    margin-bottom: 48px;
+}
+.fourth-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+   
+    
+}
+.fourth-image p{
+    width: 342px;
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+   
+}
+/* fifth section */
+.fifth-container{
+    display: flex;
+    justify-content: space-between;
+    
+    gap: 120px;
+    margin-top: 120px;
+}
+.fifth-content h2{
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    max-width: 345px;
+    padding-top: 200px;
+
+}
+.play{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.fifth-content p{
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 353px;
+}
+.fifth-simg{
+    position: relative;
+    bottom: 200px;
+}
+.big-img{
+    margin-left: 200px;
+}
+.sixth-container{
+    margin-top: 120px;
+    height: 821px;
+    background: linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%);
+    padding-left: 240px;
+    display: flex;
+    justify-content: space-between;
+}
+.sixth-content{
+    padding-top: 120px;
+}
+.sixth-content h1{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    width: 680px;
+}
+.sixth-content p{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    width: 680px;
+    
+
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 680px;
+    
+
+    
+}
+.item{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+}
+
